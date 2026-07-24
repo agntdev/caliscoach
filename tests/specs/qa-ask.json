@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Ask Question",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "Submit free-text fitness/life-coaching questions"
+            }
+          }
+        ],
+        "send": {
+          "callback": "qa:ask"
+        }
+      }
+    ]
+  }
+]
