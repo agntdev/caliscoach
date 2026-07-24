@@ -1,0 +1,20 @@
+[
+  {
+    "name": "Browse Programs",
+    "steps": [
+      {
+        "expect": [
+          {
+            "method": "sendMessage",
+            "payload": {
+              "text": "View available multi-day calisthenics progressions"
+            }
+          }
+        ],
+        "send": {
+          "callback": "programs:list"
+        }
+      }
+    ]
+  }
+]
